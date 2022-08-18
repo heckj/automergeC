@@ -1,0 +1,4 @@
+module automergeC {
+    header "automerge.h"
+    export *
+}
