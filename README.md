@@ -68,3 +68,13 @@ Generate an XCFramework:
 
     echo "▸ Compute automergeC.xcframework checksum"
     swift package compute-checksum ./automergeC.xcframework.zip
+
+`8c6895fec6cf6a4b10195fd7ef67e79e9bebb119312be1942f8cd050f7bbb2a9`
+
+- update Package.swift with the checksum and updated tag
+- commit the changes
+- Create a new release through Github's web interface: https://github.com/heckj/automergeC/releases/new
+  - drag `automergeC.xcframework.zip` into the binaries
+  - update the tag to the next iteration
+  - add any relevant notes
+  - publish
